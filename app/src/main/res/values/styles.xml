@@ -10,7 +10,7 @@
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
-        <item name="colorPrimary">#3df5ff</item>
+        <item name="colorPrimary">#00beed</item>
     </style>
 
 </resources>
