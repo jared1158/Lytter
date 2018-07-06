@@ -39,7 +39,7 @@ public class DetailsActivity extends AppCompatActivity {
         //set the textviews
         tvNamen.setText(tweet.user.name);
         tvDetail.setText(tweet.body);
-        tvMessage.setText("@" + tweet.user.screenName);
+        tvMessage.setText(tweet.user.screenName);
 
     }
 }
