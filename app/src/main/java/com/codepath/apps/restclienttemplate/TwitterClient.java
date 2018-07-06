@@ -48,7 +48,7 @@ public class TwitterClient extends OAuthBaseClient {
 		RequestParams params = new RequestParams();
 		params.put("count", 25);
 		params.put("sinec_id" , 1);
-		client.post(apiUrl, params, handler);
+		client.get(apiUrl, params, handler);
 	}
 
 	public void sendTweet(String message, AsyncHttpResponseHandler handler) {
