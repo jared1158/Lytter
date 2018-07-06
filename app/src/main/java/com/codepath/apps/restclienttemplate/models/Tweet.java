@@ -16,7 +16,7 @@ public class Tweet {
     public long uid; // database ID for the tweet
     public User user;
     public String createdAt;
-
+    //empty constructor needed because who knows
     public Tweet(){}
     //deserialize the  JSON
     public static Tweet fromJSON(JSONObject jsonObject) throws JSONException{
