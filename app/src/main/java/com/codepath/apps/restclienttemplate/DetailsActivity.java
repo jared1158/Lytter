@@ -2,6 +2,8 @@ package com.codepath.apps.restclienttemplate;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.codepath.apps.restclienttemplate.models.Tweet;
@@ -18,7 +20,14 @@ public class DetailsActivity extends AppCompatActivity {
 
 
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
 
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.back, menu);
+
+        return true;
+    }
 
 
 
@@ -40,6 +49,13 @@ public class DetailsActivity extends AppCompatActivity {
         tvNamen.setText(tweet.user.name);
         tvDetail.setText(tweet.body);
         tvMessage.setText(tweet.user.screenName);
+
+    }
+
+
+
+    public void ondog(MenuItem mi) {
+
 
     }
 }
