@@ -31,5 +31,41 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/tvNamen"
-        android:text="Twitter Hnadle" />
+        android:text="Twitter Handle" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvDetail"
+        android:layout_marginStart="46dp"
+        app:srcCompat="@drawable/reply" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tvDetail"
+        android:layout_marginStart="42dp"
+        android:layout_toEndOf="@+id/imageView"
+        app:srcCompat="@drawable/rtwt" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tvDetail"
+        android:layout_marginStart="54dp"
+        android:layout_toEndOf="@+id/imageView2"
+        app:srcCompat="@drawable/like" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tvDetail"
+        android:layout_marginStart="41dp"
+        android:layout_toEndOf="@+id/imageView6"
+        app:srcCompat="@drawable/share" />
 </RelativeLayout>
